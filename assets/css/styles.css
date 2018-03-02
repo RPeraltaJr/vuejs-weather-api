@@ -1,0 +1,15 @@
+#app .container {
+    padding: 2rem;
+}
+
+#app .card-text {
+    margin: 0;
+}
+
+#app .card-text img {
+    max-height: 30px;
+}
+
+#app .desc + .desc:before {
+    content: ", ";
+}
